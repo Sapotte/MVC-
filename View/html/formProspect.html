@@ -1,0 +1,31 @@
+<form id="form" action="index.php?table=prospect&action={action}&id={id}" method="post">
+    <fieldset>
+        <legend>{titre}</legend>
+        <div class="form-group">
+            <label for="param1">Nom :</label>
+            <input type="text" id="param1" name="param1" class="form-control form-control-sm" value ="{param1}" {disabled}>
+        </div>
+        <div class="form-group">
+            <label for="param2">Prénom : </label>
+            <input type="text" id="param2" name="param2" class="form-control form-control-sm" value="{param2}" {disabled}>
+        </div>
+        <div class="form-group">
+            <label for="param3">Adresse : </label>
+            <input type="text" id="param3" name="param3" class="form-control form-control-sm" value="{param3}" {disabled}>
+        </div>
+        <div class="form-group">
+            <label for="param4">Code postal : </label>
+            <input type="text" id="param4" name="param4" class="form-control form-control-sm" value="{param4}" {disabled}>
+        </div>
+        <div class="form-group">
+            <label for="param5">Ville : </label>
+            <input type="text" id="param5" name="param5" class="form-control form-control-sm" value="{param5}" {disabled}>
+        </div>
+        <div class="form-group">
+            <label for="param6">Commentaires : </label>
+            <textarea type="text" id="param6" name="param6" class="form-control form-control-sm" value="{param6}" {disabled}>{param6}</textarea>
+        </div>
+        <button type="submit" class="btn btn-dark w-10 float-end mt-3">{bouton}</button>
+    </fieldset>
+    
+</form>

@@ -1,0 +1,14 @@
+<form action="index.php?table=category&action={action}&id={id}" method="post">
+    <fieldset>
+        <legend>{titre}</legend>
+        <div class="form-group">
+            <label for="param1">Nom :</label>
+            <input type="text" id="param1" name="param1" class="form-control form-control-sm" value ="{param1}" {disabled}>
+        </div>
+        <div class="form-group">
+            <label for="param2">Description : </label>
+            <textarea id="param2" name="param2" class="form-control form-control-sm" value="{param2}" {disabled}>{param2}</textarea>
+        </div>
+        <button type="submit" class="btn btn-dark w-10 float-end mt-3">{bouton}</button>
+    </fieldset>
+</form>
